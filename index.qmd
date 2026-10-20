@@ -3,7 +3,8 @@ title: "O que pesquiso quando busco na HDB?"
 subtitle: "Interfaces, acesso e método na pesquisa histórica digital"
 author: "Eric Brasil"
 institute: "UNILAB · PPGIHD/UFRRJ · LABHDUFBA"
-date: 2026-10-20
+date: today
+date-format: full
 lang: pt-BR
 format:
   revealjs:
@@ -16,59 +17,21 @@ format:
     chalkboard:
       buttons: false
     preview-links: auto
-    footer: "Eric Brasil · Imprensa e História"
+    footer: "[Eric Brasil](ericbrasil.com.br) · [Entre em contato](ericbrasil.com.br/contato)"
     css: styles.css
 ---
 
 ## Acesse a apresentação {.center}
 
-![QR code para a apresentação](imgs/qrcode-imp-hist.png)
+![](imgs/qrcode-imp-hist.png)
 
 [ericbrasil.com.br/imp-hist](https://ericbrasil.com.br/imp-hist/)
 
 ---
 
-## O ponto de partida {.center}
-
-::: {.fragment .fade-in}
-**Em outubro de 2025, a Hemeroteca Digital Brasileira passou a exigir CAPTCHA para o acesso automatizado.**
-:::
-
-::: {.notes}
-A aula começa com uma mudança aparentemente técnica. Ela altera as condições concretas de pesquisa. Não vou tratar o CAPTCHA apenas como um obstáculo operacional. A pergunta é o que ele revela sobre dependência, infraestrutura e método.
-:::
-
----
-
-## Um CAPTCHA pode ser uma decisão historiográfica
-
-- Acesso humano e acesso automatizado deixam de ser equivalentes.
-- Uma coleção pública continua visível, mas torna-se menos pesquisável em escala.
-- A interface passa a definir quem pode perguntar, como pode perguntar e com que volume.
-
-::: {.notes}
-O ponto não é dizer que toda restrição técnica produz automaticamente uma consequência historiográfica. O ponto é reconhecer que a infraestrutura organiza as possibilidades da pesquisa.
-:::
-
----
-
-## O comunicado oficial de 3 de outubro de 2025
-
-> “Atenção: comunicado importante para os usuários da Hemeroteca Digital Brasileira”
-
-**Fonte:** Fundação Biblioteca Nacional, 03/10/2025.
-
-[Comunicado oficial](https://www.gov.br/bn/pt-br/central-de-conteudos/noticias/atencao-comunicado-importante-para-os-usuarios-da-hemeroteca-digital-brasileira)
-
-::: {.notes}
-A data do comunicado não prova, sozinha, quando todos os efeitos técnicos começaram. Nesta apresentação, o foco é a decisão documentada e suas consequências metodológicas.
-:::
-
----
-
 ## Breve apresentação
 
-**Eric Brasil**
+[**Eric Brasil**](ericbrasil.com.br)
 
 - Professor Adjunto da UNILAB.
 - Professor permanente do PPGIHD/UFRRJ.
@@ -86,12 +49,43 @@ Minha trajetória combina História Social, História Digital e pesquisa com fon
 ## Como esta apresentação foi produzida
 
 - Produção integral com o **Hermes Agent**.
-- Uso de um modelo de linguagem e das *skills* de trabalho acadêmico e de apresentação.
+- Uso do modelo `gpt-5.6-luna` e de um conjuntos de *skills* de trabalho acadêmico e de apresentação.
 - Pesquisa, redação, edição, renderização e verificação executadas pelo agente.
 - Supervisão, orientação e responsabilidade intelectual: **Eric Brasil**.
 
 ::: {.notes}
 Esta apresentação também é um objeto da discussão. Ela foi produzida por um agente de IA, combinando Hermes, o modelo de linguagem e as skills configuradas para pesquisa acadêmica e produção de apresentações. Eu supervisionei o processo, defini os objetivos, revisei as versões e continuo responsável pelas decisões intelectuais e pelo uso do material.
+:::
+
+---
+
+## O ponto de partida {.center}
+
+::: {.fragment .fade-in}
+![](https://static2.klipy.com/ii/2711dd8a75a85be822d136ec94899b3f/2a/65/xBnilKUl.gif)
+
+**Em outubro de 2025, a Hemeroteca Digital Brasileira passou a exigir CAPTCHA para o acesso automatizado.**
+
+:::
+
+::: {.notes}
+A aula começa com uma mudança aparentemente técnica. Ela altera as condições concretas de pesquisa. Não vou tratar o CAPTCHA apenas como um obstáculo operacional. A pergunta é o que ele revela sobre dependência, infraestrutura e método.
+:::
+
+---
+
+![**Fonte:** Fundação Biblioteca Nacional, 03/10/2025. [Comunicado oficial: **link morto!**](https://www.gov.br/bn/pt-br/central-de-conteudos/noticias/atencao-comunicado-importante-para-os-usuarios-da-hemeroteca-digital-brasileira)](imgs/aviso-captcha.png)
+
+---
+
+## Um CAPTCHA pode ser uma decisão historiográfica
+
+- Acesso humano e acesso automatizado deixam de ser equivalentes.
+- Uma coleção pública continua visível, mas torna-se menos pesquisável em escala.
+- A interface passa a definir quem pode perguntar, como pode perguntar e com que volume.
+
+::: {.notes}
+O ponto não é dizer que toda restrição técnica produz automaticamente uma consequência historiográfica. O ponto é reconhecer que a infraestrutura organiza as possibilidades da pesquisa.
 :::
 
 ---
@@ -137,14 +131,6 @@ A partir deste ponto, incorporo a estrutura da apresentação anterior sobre a H
 - Cada ferramenta reúne decisões políticas que podem escapar ao pesquisador.
 - A *black box* metodológica dificulta avaliar, reproduzir e criticar resultados.
 - Ferramentas e métodos digitais produzem efeitos epistemológicos.
-
----
-
-## E a inteligência artificial nesse processo? {.center}
-
-::: {.center}
-**A IA generativa chegou. A crítica da fonte continua necessária.**
-:::
 
 ---
 
@@ -291,23 +277,10 @@ O agente não é apenas um chatbot. Ele pode executar etapas, usar ferramentas e
 
 ---
 
-## Quem acessa?
-
-A abertura de uma interface não garante abertura da pesquisa.
-
-- Quem tem acesso à interface?
-- Quem tem acesso à API?
-- Quem pode fazer muitas requisições?
-- Quem pode hospedar modelos?
-- Quem pode auditar os resultados?
-- Quem fica dependente de plataformas privadas?
-
----
-
 ## Interface, API e agente
 
 ::: {.columns}
-::: {.column width="30%"}
+::: {.column width="20%"}
 **Interface**
 
 explorar
@@ -317,7 +290,7 @@ visualizar
 comparar
 :::
 
-::: {.column width="30%"}
+::: {.column width="20%"}
 **API**
 
 consultar
@@ -327,7 +300,7 @@ coletar
 reprocessar
 :::
 
-::: {.column width="30%"}
+::: {.column width="20%"}
 **Agente**
 
 encadear
@@ -366,17 +339,9 @@ Essas camadas não são equivalentes. Cada uma oferece capacidades diferentes e 
 
 ---
 
-## Tese de trabalho
+## Para o debate {.center}
 
 > **A hemeroteca digital não é apenas um repositório de fontes. É uma infraestrutura que participa da produção do conhecimento histórico.**
-
-Com IA e agentes, essa infraestrutura passa a incluir também:
-
-- modelos;
-- APIs;
-- índices semânticos;
-- ferramentas;
-- registros de execução.
 
 ---
 
@@ -384,31 +349,29 @@ Com IA e agentes, essa infraestrutura passa a incluir também:
 
 ![](imgs/contato.png)
 
+---
+
+## Contatos pessoais {.center}
+
 - Email: [profericbrasil@unilab.edu.br](mailto:profericbrasil@unilab.edu.br)
 - [Orcid](https://orcid.org/0000-0001-5067-8475) · [Lattes](http://lattes.cnpq.br/6853705640900524)
 - [Site pessoal](https://ericbrasil.com.br)
 
 **LABHDUFBA — Laboratório de Humanidades Digitais da UFBA**
 
-- Pesquisa em História Digital, dados, imprensa, IA e agentes.
 - [labhdufba.com.br](https://labhdufba.com.br)
 
 ---
 
-## Acesse a apresentação {.center}
+## Referências
 
-![QR code para a apresentação](imgs/qrcode-imp-hist.png)
-
-[ericbrasil.com.br/imp-hist](https://ericbrasil.com.br/imp-hist/)
-
----
-
-## Fontes e referências
-
-- Fundação Biblioteca Nacional. “Atenção: comunicado importante para os usuários da Hemeroteca Digital Brasileira”. 03 out. 2025.
 - Brasil, Eric. “Interfaces de hemerotecas digitais em português”. *Matraga*, v. 32, n. 65, 2025. DOI: [10.12957/matraga.2025.89783](https://doi.org/10.12957/matraga.2025.89783).
-- Repositório de referência: [slacsc](https://github.com/ericbrasiln/slacsc).
+- Repositório dos materiais da [apresentação](https://github.com/ericbrasiln/imp-hist).
+- FRIDLUND, Mats; OIVA, Mila; PAJU, Petri (ORGS.). Digital Histories: Emergent Approaches within the New Digital History. Helsinki: Helsinki University Press, 2020. 
+- LUCCHESI, Anita. For a New Hermeneutics of Practice in Digital Public History: Thinkering with memorecord.uni.lu. Luxembourg: University of Luxembourg, 2020.
 
 ---
 
 ## Muito obrigado! {.center}
+
+![](https://static2.klipy.com/ii/bea85337777ad0e23e63683391435543/0b/3e/MWuGbxZH.gif)
