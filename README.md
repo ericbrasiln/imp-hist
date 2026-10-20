@@ -17,7 +17,7 @@ O resultado principal é `index.html`.
 - `imgs/`: imagens herdadas do repositório de referência para uso posterior.
 - `sources/`: fontes e registros de pesquisa a acrescentar.
 
-A versão atual tem 40 slides. Ela incorpora o percurso da apresentação `slacsc` e acrescenta uma seção sobre inteligência artificial, agentes de IA, APIs e o projeto Impresso.
+A versão atual tem 33 slides. Ela incorpora o percurso da apresentação `slacsc` e mantém a seção sobre inteligência artificial, agentes de IA, APIs e o projeto Impresso.
 
 ## Repositório de referência
 

@@ -162,54 +162,6 @@ A interface não é uma janela transparente para os dados. Ela organiza busca, o
 
 ---
 
-## A cadeia que foi interrompida
-
-::: {.columns}
-::: {.column width="22%"}
-**Hemeroteca**
-
-acervo digitalizado
-:::
-
-::: {.column width="22%"}
-**Acesso**
-
-interface · OCR · busca
-:::
-
-::: {.column width="22%"}
-**Coleta**
-
-metadados · páginas · textos
-:::
-
-::: {.column width="22%"}
-**Pesquisa**
-
-comparação · escala · crítica
-:::
-:::
-
-::: {.notes}
-O pyHDB dependia de uma cadeia técnica específica. Quando uma etapa dessa cadeia é bloqueada, o método precisa ser redesenhado.
-:::
-
----
-
-## “Essa decisão matou a pyHDB”
-
-### Formulação inicial para debate
-
-- **Fato:** o acesso automatizado foi restringido por CAPTCHA.
-- **Efeito:** a rota de coleta que sustentava a pyHDB deixou de funcionar como antes.
-- **Inferência:** a infraestrutura do acervo tornou-se parte explícita do problema historiográfico.
-
-::: {.notes}
-Uso “matou” como formulação provocativa, não como diagnóstico final. É preciso distinguir a interrupção de uma infraestrutura específica da morte de uma agenda de pesquisa. O código, a documentação e a memória metodológica podem continuar existindo.
-:::
-
----
-
 ## Pesquisa de pós-doutorado
 
 - Desenvolvimento de um *framework* para pesquisas com periódicos em língua portuguesa digitalizados.
@@ -319,73 +271,6 @@ A abertura de uma interface não garante abertura da pesquisa.
 
 ---
 
-## CAPTCHA e agentes: uma assimetria nova
-
-::: {.columns}
-::: {.column width="45%"}
-**Pesquisador humano**
-
-- consulta manual;
-- ritmo limitado;
-- leitura contextual;
-- acesso pela interface.
-:::
-
-::: {.column width="45%"}
-**Agente de IA**
-
-- muitas consultas;
-- execução em cadeia;
-- uso de APIs e ferramentas;
-- dependência de permissões.
-:::
-:::
-
-**A mesma coleção pode estar aberta para leitura e fechada para exploração computacional.**
-
----
-
-## Exemplo: Impresso
-
-O projeto Impresso combina:
-
-- grandes coleções de jornais e rádio;
-- OCR e dados estruturados;
-- NLP multilíngue;
-- entidades nomeadas;
-- tópicos;
-- detecção de reutilização textual;
-- busca semântica;
-- interfaces web e API.
-
-[Impresso — objetivos](https://impresso.github.io/project/objectives/)
-
-::: {.notes}
-O Impresso é um exemplo importante porque não oferece apenas uma interface de consulta. O projeto explicita camadas de processamento, enriquecimento semântico e acesso programático.
-:::
-
----
-
-## Exemplo: uma API muda o espaço da pesquisa
-
-A API pública do Impresso permite consultar, entre outros recursos:
-
-- itens de conteúdo;
-- coleções;
-- entidades;
-- tópicos;
-- imagens;
-- passagens e agrupamentos de reutilização textual;
-- embeddings e ferramentas de NER.
-
-[Documentação da API pública](https://dev.impresso-project.ch/public-api/v1/docs/)
-
-::: {.notes}
-A API não é apenas uma comodidade para programadores. Ela permite construir perguntas e procedimentos que a interface gráfica não oferece. Ao mesmo tempo, cria novas exigências de documentação, autenticação, limites de uso, versões e crítica dos dados.
-:::
-
----
-
 ## Interface, API e agente
 
 ::: {.columns}
@@ -436,21 +321,6 @@ Essas camadas não são equivalentes. Cada uma oferece capacidades diferentes e 
 
 ---
 
-## O que precisa ser registrado?
-
-- versão da fonte;
-- URL ou endpoint;
-- data e hora de acesso;
-- parâmetros de busca;
-- filtros;
-- modelo utilizado;
-- prompt ou instrução;
-- documentos recuperados;
-- transformações realizadas;
-- decisões do pesquisador.
-
----
-
 ## E agora?
 
 - interdisciplinaridade;
@@ -474,15 +344,6 @@ Com IA e agentes, essa infraestrutura passa a incluir também:
 - índices semânticos;
 - ferramentas;
 - registros de execução.
-
----
-
-## Para debate
-
-1. O que deixamos de pesquisar quando uma API ou um *scraper* deixa de funcionar?
-2. Uma coleção é realmente aberta sem acesso programático?
-3. Quem deve decidir os limites de um agente que pesquisa fontes históricas?
-4. Como preservar a crítica da fonte em uma cadeia parcialmente automatizada?
 
 ---
 
