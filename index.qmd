@@ -3,7 +3,7 @@ title: "Quando a hemeroteca fecha a porta"
 subtitle: "Interfaces, acesso e método na pesquisa histórica digital"
 author: "Eric Brasil"
 institute: "UNILAB · PPGIHD/UFRRJ · LABHDUFBA"
-date: "20/10/2026"
+date: "20 de outubro de 2026"
 lang: pt-BR
 format:
   revealjs:
