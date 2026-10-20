@@ -20,6 +20,14 @@ format:
     css: styles.css
 ---
 
+## Acesse a apresentação {.center}
+
+![QR code para a apresentação](imgs/qrcode-imp-hist.png)
+
+[ericbrasil.com.br/imp-hist](https://ericbrasil.com.br/imp-hist/)
+
+---
+
 ## O ponto de partida {.center}
 
 ::: {.fragment .fade-in}
@@ -230,6 +238,8 @@ A interface não é uma janela transparente para os dados. Ela organiza busca, o
 
 ## O que muda com a inteligência artificial?
 
+![](https://i.giphy.com/CdY6WueirK8Te.webp)
+
 - A busca deixa de ser apenas correspondência de palavras.
 - Modelos podem classificar, resumir, relacionar e sugerir.
 - A escala de exploração aumenta.
@@ -242,6 +252,8 @@ A IA não elimina a crítica da fonte. Ela desloca a crítica para novas camadas
 ---
 
 ## O que muda com agentes de IA?
+
+![](https://i.giphy.com/fn2sFqmwowbQY.webp)
 
 Um agente pode combinar:
 
