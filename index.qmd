@@ -39,7 +39,7 @@ A aula começa com uma mudança aparentemente técnica. Ela altera as condiçõe
 - A interface passa a definir quem pode perguntar, como pode perguntar e com que volume.
 
 ::: {.notes}
-O ponto não é dizer que toda restrição técnica produz automaticamente uma consequência historiográfica. O ponto é reconhecer que a infraestrutura organiza as possibilidades da pesquisa. Quando a coleta em escala é interrompida, certas perguntas deixam de ser viáveis ou passam a exigir outro corpus.
+O ponto não é dizer que toda restrição técnica produz automaticamente uma consequência historiográfica. O ponto é reconhecer que a infraestrutura organiza as possibilidades da pesquisa.
 :::
 
 ---
@@ -53,8 +53,112 @@ O ponto não é dizer que toda restrição técnica produz automaticamente uma c
 [Comunicado oficial](https://www.gov.br/bn/pt-br/central-de-conteudos/noticias/atencao-comunicado-importante-para-os-usuarios-da-hemeroteca-digital-brasileira)
 
 ::: {.notes}
-Aqui é importante distinguir duas datas. O comunicado oficial que abre esta conversa é de 3 de outubro de 2025. A data do comunicado não prova, sozinha, quando todos os efeitos técnicos começaram. Nesta apresentação, o foco é a decisão documentada e suas consequências metodológicas.
+A data do comunicado não prova, sozinha, quando todos os efeitos técnicos começaram. Nesta apresentação, o foco é a decisão documentada e suas consequências metodológicas.
 :::
+
+---
+
+## Breve apresentação
+
+**Eric Brasil**
+
+- Professor Adjunto da UNILAB.
+- Professor permanente do PPGIHD/UFRRJ.
+- Pesquisador do LABHDUFBA.
+- Editor-chefe do *Programming Historian em Português*.
+
+**Pesquisas:** História Digital · pós-abolição · imprensa · hemerotecas · IA e agentes.
+
+::: {.notes}
+Minha trajetória combina História Social, História Digital e pesquisa com fontes digitalizadas. O problema das hemerotecas não é externo ao meu trabalho. Ele atravessa projetos, ferramentas e decisões metodológicas que venho desenvolvendo com colaboradores e estudantes.
+:::
+
+---
+
+## O que pesquiso quando pesquiso na HDB?
+
+A pergunta que organiza a apresentação:
+
+> **Pesquisamos jornais ou pesquisamos também a infraestrutura que os torna legíveis?**
+
+::: {.notes}
+A partir deste ponto, incorporo a estrutura da apresentação anterior sobre a Hemeroteca Digital Brasileira. O objetivo não é repetir um roteiro antigo, mas usar aquele percurso como base para discutir o que mudou depois do CAPTCHA e diante da IA generativa.
+:::
+
+---
+
+## Desconhecimento técnico é um problema metodológico. {.center}
+
+::: {.center}
+**Desconhecer a técnica também é desconhecer parte da fonte.**
+:::
+
+---
+
+## Rigor metodológico {.center}
+
+> “Os métodos de pesquisa digital criam demandas novas e às vezes mais rigorosas de precisão, pensamento metodológico, auto-organização e colaboração do que a pesquisa histórica tradicional.”
+
+**Fridlund; Oiva; Paju, 2020. Tradução minha.**
+
+---
+
+## Hermenêutica da prática {.center}
+
+> Uma teoria das práticas que permite refletir criticamente sobre os desafios teóricos e artesanais do trabalho digital e conceber soluções práticas para enfrentá-los.
+
+**Lucchesi, 2020. Tradução minha.**
+
+---
+
+## Ferramentas digitais condicionam nossas perguntas?
+
+- Cada ferramenta reúne decisões políticas que podem escapar ao pesquisador.
+- A *black box* metodológica dificulta avaliar, reproduzir e criticar resultados.
+- Ferramentas e métodos digitais produzem efeitos epistemológicos.
+
+---
+
+## E a inteligência artificial nesse processo? {.center}
+
+::: {.center}
+**A IA generativa chegou. A crítica da fonte continua necessária.**
+:::
+
+---
+
+## O que pesquisamos quando pesquisamos na HDB? {.center}
+
+![](imgs/hdb1.png)
+
+---
+
+## A interface também é um argumento {.center}
+
+![](imgs/hdb2.png)
+
+::: {.notes}
+A interface não é uma janela transparente para os dados. Ela organiza busca, ordenação, visualização, recorte e comparação.
+:::
+
+---
+
+## Como compreender os dados da HDB?
+
+- É possível compreender o acervo através da interface?
+- As escolhas técnicas afetam a compreensão dos dados?
+- O que aparece nos resultados?
+- O que fica fora do índice?
+
+---
+
+## Acessando os dados
+
+- API?
+- *Web scraping* ou coleta manual?
+- Dados abertos?
+- Metadados estruturados?
+- OCR e imagens de página?
 
 ---
 
@@ -87,7 +191,7 @@ comparação · escala · crítica
 :::
 
 ::: {.notes}
-O argumento não é que o pyHDB fosse a única forma legítima de pesquisar a HDB. O argumento é que ele dependia de uma cadeia técnica específica. Quando uma etapa dessa cadeia é bloqueada, o método precisa ser redesenhado.
+O pyHDB dependia de uma cadeia técnica específica. Quando uma etapa dessa cadeia é bloqueada, o método precisa ser redesenhado.
 :::
 
 ---
@@ -101,69 +205,261 @@ O argumento não é que o pyHDB fosse a única forma legítima de pesquisar a HD
 - **Inferência:** a infraestrutura do acervo tornou-se parte explícita do problema historiográfico.
 
 ::: {.notes}
-Uso “matou” como formulação provocativa, não como diagnóstico final. Precisamos distinguir a interrupção de uma infraestrutura específica da morte de uma agenda de pesquisa. A pyHDB pode ser preservada como código, documentação e memória metodológica, mesmo que a rota original de coleta não esteja mais disponível.
+Uso “matou” como formulação provocativa, não como diagnóstico final. É preciso distinguir a interrupção de uma infraestrutura específica da morte de uma agenda de pesquisa. O código, a documentação e a memória metodológica podem continuar existindo.
 :::
 
 ---
 
-## A pergunta da aula
+## Pesquisa de pós-doutorado
 
-> **O que pesquisamos quando pesquisamos em uma hemeroteca digital?**
+- Desenvolvimento de um *framework* para pesquisas com periódicos em língua portuguesa digitalizados.
+- Casos de estudo: HDB e Biblioteca Nacional Digital de Portugal.
+- Resultado: [HEMDIG(pt)](https://ericbrasil.com.br/hemdig-framework/).
 
-Não pesquisamos apenas jornais.
+---
 
-Pesquisamos também:
+## HEMDIG(pt) {.center}
 
-- uma política de acesso;
-- um modelo de metadados;
-- uma camada de OCR;
-- uma interface;
-- um índice;
-- uma infraestrutura de coleta.
+![](imgs/hemdig.png)
+
+---
+
+## Uma visão geral dos dados: MARCXML
+
+- título do periódico;
+- subtítulo;
+- local de publicação;
+- editora;
+- período de publicação;
+- periodicidade;
+- idioma.
+
+---
+
+## O catálogo também produz um recorte {.center}
+
+| Campo | Quantidade |
+|---|---:|
+| Título | 7.685 |
+| Subtítulo | 3.666 |
+| Local | 7.608 |
+| Período | 7.265 |
+| Editora | 5.675 |
+| Periodicidade | 5.901 |
+| Idioma | 6.614 |
+
+---
+
+## Recorte do arquivo XML {.center}
+
+![Recorte do arquivo XML](imgs/xml_hdb.png)
+
+---
+
+## Escopo cronológico e espacial
+
+- 673 locais únicos.
+- 7.685 títulos.
+- Publicações entre 1521 e 2022.
+
+---
+
+## Viés cronológico? {.center}
+
+![Gráfico de dispersão com datas de início](imgs/plot2.png)
+
+---
+
+## Viés espacial? {.center}
+
+![Gráfico de barras com cidades mais frequentes](imgs/plot1.png)
+
+---
+
+## O que muda com a inteligência artificial?
+
+- A busca deixa de ser apenas correspondência de palavras.
+- Modelos podem classificar, resumir, relacionar e sugerir.
+- A escala de exploração aumenta.
+- A opacidade também pode aumentar.
 
 ::: {.notes}
-Esta pergunta retoma o argumento do artigo debatido no grupo. A interface não é uma janela transparente para o passado. Ela participa da seleção, da ordenação e da legibilidade dos vestígios.
+A IA não elimina a crítica da fonte. Ela desloca a crítica para novas camadas: dados de treinamento, modelo, prompt, contexto, ferramenta, índice e rastreabilidade da resposta.
 :::
 
 ---
 
-## Do obstáculo técnico ao problema histórico
+## O que muda com agentes de IA?
 
-**CAPTCHA**
+Um agente pode combinar:
 
-↓
-
-**restrição de acesso em escala**
-
-↓
-
-**alteração do corpus possível**
-
-↓
-
-**alteração das perguntas possíveis**
+1. uma pergunta histórica;
+2. uma busca em fontes ou APIs;
+3. recuperação de documentos;
+4. ferramentas de análise;
+5. síntese de resultados;
+6. registro ou encaminhamento da pesquisa.
 
 ::: {.notes}
-A seta final é uma inferência metodológica. Não significa que toda pergunta desaparece. Significa que a composição do corpus, a escala da busca e a possibilidade de comparação são afetadas.
+O agente não é apenas um chatbot. Ele pode executar etapas, usar ferramentas e encadear operações. Por isso, precisamos distinguir autonomia operacional de autonomia epistemológica. O agente pode agir sem poder decidir sozinho o que constitui uma boa evidência histórica.
 :::
 
 ---
 
-## O artigo em debate
+## Quem acessa?
 
-**Interfaces de hemerotecas digitais em português**
+A abertura de uma interface não garante abertura da pesquisa.
 
-Eric Brasil
+- Quem tem acesso à interface?
+- Quem tem acesso à API?
+- Quem pode fazer muitas requisições?
+- Quem pode hospedar modelos?
+- Quem pode auditar os resultados?
+- Quem fica dependente de plataformas privadas?
 
-- análise crítica das interfaces;
-- Hemeroteca Digital Brasileira;
-- Biblioteca Nacional Digital de Portugal;
-- Hemeroteca Digital de Lisboa;
-- desafios para uma nova geração de acervos históricos.
+---
+
+## CAPTCHA e agentes: uma assimetria nova
+
+::: {.columns}
+::: {.column width="45%"}
+**Pesquisador humano**
+
+- consulta manual;
+- ritmo limitado;
+- leitura contextual;
+- acesso pela interface.
+:::
+
+::: {.column width="45%"}
+**Agente de IA**
+
+- muitas consultas;
+- execução em cadeia;
+- uso de APIs e ferramentas;
+- dependência de permissões.
+:::
+:::
+
+**A mesma coleção pode estar aberta para leitura e fechada para exploração computacional.**
+
+---
+
+## Exemplo: Impresso
+
+O projeto Impresso combina:
+
+- grandes coleções de jornais e rádio;
+- OCR e dados estruturados;
+- NLP multilíngue;
+- entidades nomeadas;
+- tópicos;
+- detecção de reutilização textual;
+- busca semântica;
+- interfaces web e API.
+
+[Impresso — objetivos](https://impresso.github.io/project/objectives/)
 
 ::: {.notes}
-A partir daqui, a aula entra no artigo. O problema do CAPTCHA oferece uma entrada concreta para discutir a tese mais ampla: as escolhas da interface e da infraestrutura condicionam a pesquisa histórica.
+O Impresso é um exemplo importante porque não oferece apenas uma interface de consulta. O projeto explicita camadas de processamento, enriquecimento semântico e acesso programático.
 :::
+
+---
+
+## Exemplo: uma API muda o espaço da pesquisa
+
+A API pública do Impresso permite consultar, entre outros recursos:
+
+- itens de conteúdo;
+- coleções;
+- entidades;
+- tópicos;
+- imagens;
+- passagens e agrupamentos de reutilização textual;
+- embeddings e ferramentas de NER.
+
+[Documentação da API pública](https://dev.impresso-project.ch/public-api/v1/docs/)
+
+::: {.notes}
+A API não é apenas uma comodidade para programadores. Ela permite construir perguntas e procedimentos que a interface gráfica não oferece. Ao mesmo tempo, cria novas exigências de documentação, autenticação, limites de uso, versões e crítica dos dados.
+:::
+
+---
+
+## Interface, API e agente
+
+::: {.columns}
+::: {.column width="30%"}
+**Interface**
+
+explorar
+
+visualizar
+
+comparar
+:::
+
+::: {.column width="30%"}
+**API**
+
+consultar
+
+coletar
+
+reprocessar
+:::
+
+::: {.column width="30%"}
+**Agente**
+
+encadear
+
+interpretar
+
+registrar
+:::
+:::
+
+::: {.notes}
+Essas camadas não são equivalentes. Cada uma oferece capacidades diferentes e produz uma relação diferente com a fonte.
+:::
+
+---
+
+## O agente não é um historiador
+
+- Pode executar operações.
+- Pode combinar fontes e ferramentas.
+- Pode produzir hipóteses.
+- Não substitui crítica de procedência, contexto e evidência.
+- Precisa deixar rastros para ser auditado.
+
+---
+
+## O que precisa ser registrado?
+
+- versão da fonte;
+- URL ou endpoint;
+- data e hora de acesso;
+- parâmetros de busca;
+- filtros;
+- modelo utilizado;
+- prompt ou instrução;
+- documentos recuperados;
+- transformações realizadas;
+- decisões do pesquisador.
+
+---
+
+## E agora?
+
+- interdisciplinaridade;
+- colaboração;
+- transparência e ciência aberta;
+- dados e APIs abertas;
+- formação técnica;
+- documentação e versionamento;
+- financiamento e políticas públicas.
 
 ---
 
@@ -171,18 +467,43 @@ A partir daqui, a aula entra no artigo. O problema do CAPTCHA oferece uma entrad
 
 > **A hemeroteca digital não é apenas um repositório de fontes. É uma infraestrutura que participa da produção do conhecimento histórico.**
 
-::: {.notes}
-Esta é a tese que proponho usar como fio condutor da apresentação. Depois podemos decidir se ela deve aparecer como tese principal, pergunta de abertura ou conclusão.
-:::
+Com IA e agentes, essa infraestrutura passa a incluir também:
+
+- modelos;
+- APIs;
+- índices semânticos;
+- ferramentas;
+- registros de execução.
 
 ---
 
-## Fontes e notas
+## Para debate
+
+1. O que deixamos de pesquisar quando uma API ou um *scraper* deixa de funcionar?
+2. Uma coleção é realmente aberta sem acesso programático?
+3. Quem deve decidir os limites de um agente que pesquisa fontes históricas?
+4. Como preservar a crítica da fonte em uma cadeia parcialmente automatizada?
+
+---
+
+## Contatos pessoais {.center}
+
+![](imgs/contato.png)
+
+- Email: [profericbrasil@unilab.edu.br](mailto:profericbrasil@unilab.edu.br)
+- [Orcid](https://orcid.org/0000-0001-5067-8475) · [Lattes](http://lattes.cnpq.br/6853705640900524)
+- [Site pessoal](https://ericbrasil.com.br)
+
+---
+
+## Fontes e referências
 
 - Fundação Biblioteca Nacional. “Atenção: comunicado importante para os usuários da Hemeroteca Digital Brasileira”. 03 out. 2025.
-- Brasil, Eric. “Interfaces de hemerotecas digitais em português: análise crítica e desafios para o desenvolvimento de uma nova geração de acervos históricos”. *Matraga*, v. 32, n. 65, 2025. DOI: [10.12957/matraga.2025.89783](https://doi.org/10.12957/matraga.2025.89783).
-- Repositório de referência visual e estrutural: [slacsc](https://github.com/ericbrasiln/slacsc).
+- Brasil, Eric. “Interfaces de hemerotecas digitais em português”. *Matraga*, v. 32, n. 65, 2025. DOI: [10.12957/matraga.2025.89783](https://doi.org/10.12957/matraga.2025.89783).
+- Impresso. [Objectives](https://impresso.github.io/project/objectives/).
+- Impresso. [Public API Documentation](https://dev.impresso-project.ch/public-api/v1/docs/).
+- Repositório de referência: [slacsc](https://github.com/ericbrasiln/slacsc).
 
-::: {.notes}
-As fontes serão ampliadas à medida que definirmos o roteiro completo e as imagens da apresentação.
-:::
+---
+
+## Muito obrigado! {.center}
