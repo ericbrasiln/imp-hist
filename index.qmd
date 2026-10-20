@@ -83,6 +83,19 @@ Minha trajetória combina História Social, História Digital e pesquisa com fon
 
 ---
 
+## Como esta apresentação foi produzida
+
+- Produção integral com o **Hermes Agent**.
+- Uso de um modelo de linguagem e das *skills* de trabalho acadêmico e de apresentação.
+- Pesquisa, redação, edição, renderização e verificação executadas pelo agente.
+- Supervisão, orientação e responsabilidade intelectual: **Eric Brasil**.
+
+::: {.notes}
+Esta apresentação também é um objeto da discussão. Ela foi produzida por um agente de IA, combinando Hermes, o modelo de linguagem e as skills configuradas para pesquisa acadêmica e produção de apresentações. Eu supervisionei o processo, defini os objetivos, revisei as versões e continuo responsável pelas decisões intelectuais e pelo uso do material.
+:::
+
+---
+
 ## O que pesquiso quando pesquiso na HDB?
 
 A pergunta que organiza a apresentação:
