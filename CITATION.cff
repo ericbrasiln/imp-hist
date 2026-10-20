@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Se você utilizar esta apresentação, cite este repositório."
+type: software
+title: "O que pesquiso quando busco na HDB?"
+abstract: >-
+  Apresentação em Quarto/RevealJS sobre História Digital, interfaces,
+  acesso, métodos de pesquisa e condições de produção do conhecimento
+  histórico na Hemeroteca Digital Brasileira. A apresentação também discute
+  inteligência artificial, agentes de IA, APIs, rastreabilidade e o papel da
+  supervisão humana na produção de uma apresentação acadêmica.
+version: 1.0.0
+date-released: 2026-10-20
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/ericbrasiln/imp-hist"
+url: "https://ericbrasil.com.br/imp-hist/"
+authors:
+  - family-names: Brasil
+    given-names: Eric
+    orcid: "https://orcid.org/0000-0001-5067-8475"
+keywords:
+  - História Digital
+  - Humanidades Digitais
+  - Hemeroteca Digital Brasileira
+  - imprensa
+  - inteligência artificial
+  - agentes de IA
+  - Quarto
+  - RevealJS
