@@ -253,6 +253,10 @@ A interface não é uma janela transparente para os dados. Ela organiza busca, o
 
 ![](imgs/ia-generativa.gif)
 
+---
+
+## O que muda com a inteligência artificial?
+
 - A busca deixa de ser apenas correspondência de palavras.
 - Modelos podem classificar, resumir, relacionar e sugerir.
 - A escala de exploração aumenta.
@@ -267,6 +271,10 @@ A IA não elimina a crítica da fonte. Ela desloca a crítica para novas camadas
 ## O que muda com agentes de IA?
 
 ![](imgs/agentes-ia.gif)
+
+---
+
+## O que muda com agentes de IA?
 
 Um agente pode combinar:
 
@@ -384,6 +392,14 @@ Com IA e agentes, essa infraestrutura passa a incluir também:
 
 - Pesquisa em História Digital, dados, imprensa, IA e agentes.
 - [labhdufba.com.br](https://labhdufba.com.br)
+
+---
+
+## Acesse a apresentação {.center}
+
+![QR code para a apresentação](imgs/qrcode-imp-hist.png)
+
+[ericbrasil.com.br/imp-hist](https://ericbrasil.com.br/imp-hist/)
 
 ---
 
