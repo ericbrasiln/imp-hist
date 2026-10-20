@@ -1,0 +1,11 @@
+# Quarto
+.quarto/
+*_cache/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Temporários
+*.tmp
+*.swp

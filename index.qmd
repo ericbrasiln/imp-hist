@@ -1,0 +1,188 @@
+---
+title: "Quando a hemeroteca fecha a porta"
+subtitle: "Interfaces, acesso e método na pesquisa histórica digital"
+author: "Eric Brasil"
+institute: "UNILAB · PPGIHD/UFRRJ · LABHDUFBA"
+date: "20/10/2026"
+lang: pt-BR
+format:
+  revealjs:
+    theme: white
+    slide-number: true
+    transition: none
+    controls: false
+    progress: true
+    center: false
+    chalkboard:
+      buttons: false
+    preview-links: auto
+    footer: "Eric Brasil · Imprensa e História"
+    css: styles.css
+---
+
+## O ponto de partida {.center}
+
+::: {.fragment .fade-in}
+**Em outubro de 2025, a Hemeroteca Digital Brasileira passou a exigir CAPTCHA para o acesso automatizado.**
+:::
+
+::: {.notes}
+A aula começa com uma mudança aparentemente técnica. Ela altera as condições concretas de pesquisa. Não vou tratar o CAPTCHA apenas como um obstáculo operacional. A pergunta é o que ele revela sobre dependência, infraestrutura e método.
+:::
+
+---
+
+## Um CAPTCHA pode ser uma decisão historiográfica
+
+- Acesso humano e acesso automatizado deixam de ser equivalentes.
+- Uma coleção pública continua visível, mas torna-se menos pesquisável em escala.
+- A interface passa a definir quem pode perguntar, como pode perguntar e com que volume.
+
+::: {.notes}
+O ponto não é dizer que toda restrição técnica produz automaticamente uma consequência historiográfica. O ponto é reconhecer que a infraestrutura organiza as possibilidades da pesquisa. Quando a coleta em escala é interrompida, certas perguntas deixam de ser viáveis ou passam a exigir outro corpus.
+:::
+
+---
+
+## O comunicado oficial de 3 de outubro de 2025
+
+> “Atenção: comunicado importante para os usuários da Hemeroteca Digital Brasileira”
+
+**Fonte:** Fundação Biblioteca Nacional, 03/10/2025.
+
+[Comunicado oficial](https://www.gov.br/bn/pt-br/central-de-conteudos/noticias/atencao-comunicado-importante-para-os-usuarios-da-hemeroteca-digital-brasileira)
+
+::: {.notes}
+Aqui é importante distinguir duas datas. O comunicado oficial que abre esta conversa é de 3 de outubro de 2025. A data do comunicado não prova, sozinha, quando todos os efeitos técnicos começaram. Nesta apresentação, o foco é a decisão documentada e suas consequências metodológicas.
+:::
+
+---
+
+## A cadeia que foi interrompida
+
+::: {.columns}
+::: {.column width="22%"}
+**Hemeroteca**
+
+acervo digitalizado
+:::
+
+::: {.column width="22%"}
+**Acesso**
+
+interface · OCR · busca
+:::
+
+::: {.column width="22%"}
+**Coleta**
+
+metadados · páginas · textos
+:::
+
+::: {.column width="22%"}
+**Pesquisa**
+
+comparação · escala · crítica
+:::
+:::
+
+::: {.notes}
+O argumento não é que o pyHDB fosse a única forma legítima de pesquisar a HDB. O argumento é que ele dependia de uma cadeia técnica específica. Quando uma etapa dessa cadeia é bloqueada, o método precisa ser redesenhado.
+:::
+
+---
+
+## “Essa decisão matou a pyHDB”
+
+### Formulação inicial para debate
+
+- **Fato:** o acesso automatizado foi restringido por CAPTCHA.
+- **Efeito:** a rota de coleta que sustentava a pyHDB deixou de funcionar como antes.
+- **Inferência:** a infraestrutura do acervo tornou-se parte explícita do problema historiográfico.
+
+::: {.notes}
+Uso “matou” como formulação provocativa, não como diagnóstico final. Precisamos distinguir a interrupção de uma infraestrutura específica da morte de uma agenda de pesquisa. A pyHDB pode ser preservada como código, documentação e memória metodológica, mesmo que a rota original de coleta não esteja mais disponível.
+:::
+
+---
+
+## A pergunta da aula
+
+> **O que pesquisamos quando pesquisamos em uma hemeroteca digital?**
+
+Não pesquisamos apenas jornais.
+
+Pesquisamos também:
+
+- uma política de acesso;
+- um modelo de metadados;
+- uma camada de OCR;
+- uma interface;
+- um índice;
+- uma infraestrutura de coleta.
+
+::: {.notes}
+Esta pergunta retoma o argumento do artigo debatido no grupo. A interface não é uma janela transparente para o passado. Ela participa da seleção, da ordenação e da legibilidade dos vestígios.
+:::
+
+---
+
+## Do obstáculo técnico ao problema histórico
+
+**CAPTCHA**
+
+↓
+
+**restrição de acesso em escala**
+
+↓
+
+**alteração do corpus possível**
+
+↓
+
+**alteração das perguntas possíveis**
+
+::: {.notes}
+A seta final é uma inferência metodológica. Não significa que toda pergunta desaparece. Significa que a composição do corpus, a escala da busca e a possibilidade de comparação são afetadas.
+:::
+
+---
+
+## O artigo em debate
+
+**Interfaces de hemerotecas digitais em português**
+
+Eric Brasil
+
+- análise crítica das interfaces;
+- Hemeroteca Digital Brasileira;
+- Biblioteca Nacional Digital de Portugal;
+- Hemeroteca Digital de Lisboa;
+- desafios para uma nova geração de acervos históricos.
+
+::: {.notes}
+A partir daqui, a aula entra no artigo. O problema do CAPTCHA oferece uma entrada concreta para discutir a tese mais ampla: as escolhas da interface e da infraestrutura condicionam a pesquisa histórica.
+:::
+
+---
+
+## Tese de trabalho
+
+> **A hemeroteca digital não é apenas um repositório de fontes. É uma infraestrutura que participa da produção do conhecimento histórico.**
+
+::: {.notes}
+Esta é a tese que proponho usar como fio condutor da apresentação. Depois podemos decidir se ela deve aparecer como tese principal, pergunta de abertura ou conclusão.
+:::
+
+---
+
+## Fontes e notas
+
+- Fundação Biblioteca Nacional. “Atenção: comunicado importante para os usuários da Hemeroteca Digital Brasileira”. 03 out. 2025.
+- Brasil, Eric. “Interfaces de hemerotecas digitais em português: análise crítica e desafios para o desenvolvimento de uma nova geração de acervos históricos”. *Matraga*, v. 32, n. 65, 2025. DOI: [10.12957/matraga.2025.89783](https://doi.org/10.12957/matraga.2025.89783).
+- Repositório de referência visual e estrutural: [slacsc](https://github.com/ericbrasiln/slacsc).
+
+::: {.notes}
+As fontes serão ampliadas à medida que definirmos o roteiro completo e as imagens da apresentação.
+:::

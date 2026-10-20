@@ -1,0 +1,41 @@
+/* Base visual adapted from the user's slacsc Quarto deck. */
+.reveal {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  color: #171717;
+}
+.reveal .slides section {
+  text-align: left;
+}
+.reveal h1, .reveal h2, .reveal h3 {
+  color: #171717;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.reveal h2 {
+  font-size: 1.55em;
+  border-left: 0.18em solid #c62828;
+  padding-left: 0.35em;
+}
+.reveal h3 {
+  color: #c62828;
+  font-size: 1.1em;
+}
+.reveal strong { color: #b71c1c; }
+.reveal blockquote {
+  width: 88%;
+  border-left: 0.16em solid #c62828;
+  box-shadow: none;
+  padding: 0.55em 0.8em;
+  font-size: 1.12em;
+  background: #fff4f4;
+}
+.reveal a { color: #b71c1c; }
+.reveal .columns { gap: 1.2em; }
+.reveal .column {
+  border-top: 0.18em solid #c62828;
+  padding: 0.5em 0.7em;
+  background: #fafafa;
+}
+.reveal .center { text-align: center; }
+.reveal .slides section.center h2 { border-left: 0; padding-left: 0; }
+.reveal .slides section > p:last-child { margin-top: 1.4em; }
