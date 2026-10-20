@@ -1,5 +1,5 @@
 ---
-title: "Quando a hemeroteca fecha a porta"
+title: "O que pesquiso quando busco na HDB?"
 subtitle: "Interfaces, acesso e método na pesquisa histórica digital"
 author: "Eric Brasil"
 institute: "UNILAB · PPGIHD/UFRRJ · LABHDUFBA"
@@ -238,7 +238,7 @@ A interface não é uma janela transparente para os dados. Ela organiza busca, o
 
 ## O que muda com a inteligência artificial?
 
-![](https://i.giphy.com/CdY6WueirK8Te.webp)
+![](imgs/ia-generativa.webp)
 
 - A busca deixa de ser apenas correspondência de palavras.
 - Modelos podem classificar, resumir, relacionar e sugerir.
@@ -253,7 +253,7 @@ A IA não elimina a crítica da fonte. Ela desloca a crítica para novas camadas
 
 ## O que muda com agentes de IA?
 
-![](https://i.giphy.com/fn2sFqmwowbQY.webp)
+![](imgs/agentes-ia.webp)
 
 Um agente pode combinar:
 
@@ -367,14 +367,17 @@ Com IA e agentes, essa infraestrutura passa a incluir também:
 - [Orcid](https://orcid.org/0000-0001-5067-8475) · [Lattes](http://lattes.cnpq.br/6853705640900524)
 - [Site pessoal](https://ericbrasil.com.br)
 
+**LABHDUFBA — Laboratório de Humanidades Digitais da UFBA**
+
+- Pesquisa em História Digital, dados, imprensa, IA e agentes.
+- [labhdufba.com.br](https://labhdufba.com.br)
+
 ---
 
 ## Fontes e referências
 
 - Fundação Biblioteca Nacional. “Atenção: comunicado importante para os usuários da Hemeroteca Digital Brasileira”. 03 out. 2025.
 - Brasil, Eric. “Interfaces de hemerotecas digitais em português”. *Matraga*, v. 32, n. 65, 2025. DOI: [10.12957/matraga.2025.89783](https://doi.org/10.12957/matraga.2025.89783).
-- Impresso. [Objectives](https://impresso.github.io/project/objectives/).
-- Impresso. [Public API Documentation](https://dev.impresso-project.ch/public-api/v1/docs/).
 - Repositório de referência: [slacsc](https://github.com/ericbrasiln/slacsc).
 
 ---
