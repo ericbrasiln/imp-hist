@@ -17,9 +17,7 @@ O resultado principal é `index.html`.
 - `imgs/`: imagens herdadas do repositório de referência para uso posterior.
 - `sources/`: fontes e registros de pesquisa a acrescentar.
 
-## Ponto de partida
-
-A abertura parte do comunicado da Fundação Biblioteca Nacional de 3 de outubro de 2025 sobre o uso da Hemeroteca Digital Brasileira. A apresentação trata a interrupção do acesso automatizado como um problema metodológico e epistemológico, sem confundir o bloqueio de uma rota de coleta com o desaparecimento de toda a agenda de pesquisa da pyHDB.
+A versão atual tem 40 slides. Ela incorpora o percurso da apresentação `slacsc` e acrescenta uma seção sobre inteligência artificial, agentes de IA, APIs e o projeto Impresso.
 
 ## Repositório de referência
 
